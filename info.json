@@ -1,13 +1,14 @@
 {
-  "name": "md-py-tweaks",
+  "name": "md-py-tweaks_fx",
   "version": "1.0.9",
   "factorio_version": "2.0",
-  "title": "MadDuck's Py Tweaks",
+  "title": "MadDuck's Py Tweaks FX",
   "author": "MdStudio5",
   "contact": "",
   "homepage": "",
   "description": "Mad Duck's tweaks to Pyanodon's mods.",
   "dependencies": [
+    "! md-py-tweaks",
     "base >= 2.0.28",
     "pyalternativeenergy >= 3.1.37",
     "pyhightech >= 3.0.18",
