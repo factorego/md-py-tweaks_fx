@@ -64,7 +64,7 @@ RECIPE("assembly-robot")
         :add_ingredient {type = "item", name = "mechanical-parts-04", amount = 1}
         :add_ingredient {type = "item", name = "fission-reactor-equipment", amount = 1}
         :add_ingredient {type = "item", name = "personal-fusion-cell", amount = 1}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- SpaceX Combinator
 --
@@ -81,7 +81,7 @@ RECIPE("spacex-combinator")
         :add_ingredient {type = "item", name = "processing-unit", amount = mdpy.cap_amount(5 * ingredientMulti)}
         :add_ingredient {type = "item", name = "intelligent-unit", amount = mdpy.cap_amount(1 * ingredientMulti)}
         :add_ingredient {type = "item", name = "quantum-battery", amount = 1}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Drydock Assembly Component
 --
@@ -109,7 +109,7 @@ RECIPE("drydock-assembly")
         :add_ingredient {type = "item", name = "nbti-alloy", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "intelligent-unit", amount = mdpy.cap_amount(200 * ingredientMulti)}
         :add_ingredient {type = "item", name = "mechanical-parts-04", amount = mdpy.cap_amount(10 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Drydock Structural Component
 --
@@ -127,7 +127,7 @@ RECIPE("drydock-structural")
         :add_ingredient {type = "item", name = "super-steel", amount = mdpy.cap_amount(200 * ingredientMulti)}
         :add_ingredient {type = "item", name = "nbti-alloy", amount = mdpy.cap_amount(200 * ingredientMulti)}
         :add_ingredient {type = "item", name = "cf", amount = mdpy.cap_amount(300 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Hull Component
 --
@@ -146,7 +146,7 @@ RECIPE("hull-component")
         :add_ingredient {type = "item", name = "super-steel", amount = mdpy.cap_amount(250 * ingredientMulti)}
         :add_ingredient {type = "item", name = "nbti-alloy", amount = mdpy.cap_amount(250 * ingredientMulti)}
         :add_ingredient {type = "item", name = "metastable-quasicrystal", amount = mdpy.cap_amount(100 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Protection Field
 --
@@ -170,7 +170,7 @@ RECIPE("protection-field")
         :add_ingredient {type = "item", name = "intelligent-unit", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "cryostat", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "cryocooler", amount = mdpy.cap_amount(50 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Spaceship Thruster
 --
@@ -199,7 +199,7 @@ RECIPE("space-thruster")
         :add_ingredient {type = "item", name = "ht-pipes", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "speed-module-3", amount = mdpy.cap_amount(50 * ingredientMulti)}
         :add_ingredient {type = "item", name = "efficiency-module-3", amount = mdpy.cap_amount(50 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Fuel Cell
 --
@@ -228,7 +228,7 @@ RECIPE("fuel-cell")
         :add_ingredient {type = "item", name = "metallic-glass", amount = mdpy.cap_amount(200 * ingredientMulti)}
         :add_ingredient {type = "item", name = "quantum-battery", amount = mdpy.cap_amount(50 * ingredientMulti)}
         :add_ingredient {type = "item", name = "small-parts-03", amount = mdpy.cap_amount(200 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Fusion Reactor
 --
@@ -269,7 +269,7 @@ RECIPE("fusion-reactor")
         :add_ingredient {type = "item", name = "speed-module-3", amount = mdpy.cap_amount(50 * ingredientMulti)}
         :add_ingredient {type = "item", name = "productivity-module-3", amount = mdpy.cap_amount(50 * ingredientMulti)}
         :add_ingredient {type = "item", name = "antimatter", amount = mdpy.cap_amount(500 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Habitation
 -- Original Recipe:
@@ -295,7 +295,7 @@ RECIPE("habitation")
         :add_ingredient {type = "item", name = "super-steel", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "super-alloy", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "small-parts-03", amount = mdpy.cap_amount(150 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Life Support
 -- Original Recipe:
@@ -334,7 +334,7 @@ RECIPE("life-support")
         :add_ingredient {type = "item", name = "intelligent-unit", amount = mdpy.cap_amount(250 * ingredientMulti)}
         :add_ingredient {type = "item", name = "mechanical-parts-04", amount = mdpy.cap_amount(20 * ingredientMulti)}
         :add_ingredient {type = "item", name = "tholin-atm-mk03", amount = mdpy.cap_amount(5 * buildingMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Command Center
 -- Original Recipe:
@@ -367,7 +367,7 @@ RECIPE("command")
         :add_ingredient {type = "item", name = "super-steel", amount = mdpy.cap_amount(250 * ingredientMulti)}
         :add_ingredient {type = "item", name = "super-alloy", amount = mdpy.cap_amount(250 * ingredientMulti)}
         :add_ingredient {type = "item", name = "small-parts-03", amount = mdpy.cap_amount(150 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- Astrometrics Lab
 -- Original Recipe:
@@ -396,7 +396,7 @@ RECIPE("astrometrics")
         :add_ingredient {type = "item", name = "strangelets", amount = mdpy.cap_amount(200 * ingredientMulti)}
         :add_ingredient {type = "item", name = "cryostat", amount = mdpy.cap_amount(200 * ingredientMulti)}
         :add_ingredient {type = "item", name = "cryocooler", amount = mdpy.cap_amount(100 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 -- FTL Drive
 -- Original Recipe:
@@ -439,7 +439,7 @@ RECIPE("ftl-drive")
         :add_ingredient {type = "item", name = "generator-2", amount = mdpy.cap_amount(20 * buildingMulti)}
         :add_ingredient {type = "item", name = "nv-center", amount = mdpy.cap_amount(500 * ingredientMulti)}
         :add_ingredient {type = "item", name = "bose-einstein-superfluid", amount = mdpy.cap_amount(500 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 if mods["pyhardmode"] then
     RECIPE("ftl-drive"):add_ingredient {type = "item", name = "macguffin", amount = mdpy.cap_amount(500 * ingredientMulti)}
@@ -452,7 +452,7 @@ RECIPE("exploration-satellite")
         :add_ingredient {type = "item", name = "satellite", amount = mdpy.cap_amount(5 * ingredientMulti)}
         :add_ingredient {type = "item", name = "space-thruster", amount = mdpy.cap_amount(1 * ingredientMulti)}
         :add_ingredient {type = "item", name = "nuclear-fuel", amount = mdpy.cap_amount(10 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 RECIPE("space-ai-robot")
         :clear_ingredients()
@@ -466,7 +466,7 @@ RECIPE("space-ai-robot")
         :add_ingredient {type = "item", name = "fission-reactor-equipment", amount = mdpy.cap_amount(20 * ingredientMulti)}
         :add_ingredient {type = "item", name = "xeno-codex-mk04", amount = mdpy.cap_amount(10 * ingredientMulti)}
         :add_ingredient {type = "item", name = "quantum-computer", amount = mdpy.cap_amount(1 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 RECIPE("space-ai-robot-frame")
         :clear_ingredients()
@@ -475,7 +475,7 @@ RECIPE("space-ai-robot-frame")
         :add_ingredient {type = "item", name = "logistic-robot-mk04", amount = mdpy.cap_amount(50 * ingredientMulti)}
         :add_ingredient {type = "item", name = "personal-roboport-mk2-equipment", amount = mdpy.cap_amount(1 * ingredientMulti)}
         :add_ingredient {type = "item", name = "personal-laser-defense-equipment", amount = mdpy.cap_amount(1 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 
 RECIPE("space-water-tank")
@@ -484,7 +484,7 @@ RECIPE("space-water-tank")
         :add_ingredient {type = "item", name = "pump", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "py-tank-10000", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "ht-pipes", amount = mdpy.cap_amount(500 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 RECIPE("space-fuel-tank")
         :clear_ingredients()
@@ -492,7 +492,7 @@ RECIPE("space-fuel-tank")
         :add_ingredient {type = "item", name = "pump", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "py-tank-10000", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "ht-pipes", amount = mdpy.cap_amount(500 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 RECIPE("space-oxygen-tank")
         :clear_ingredients()
@@ -500,14 +500,14 @@ RECIPE("space-oxygen-tank")
         :add_ingredient {type = "item", name = "pump", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "py-tank-10000", amount = mdpy.cap_amount(100 * ingredientMulti)}
         :add_ingredient {type = "item", name = "ht-pipes", amount = mdpy.cap_amount(500 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 RECIPE("space-oxygen-barrel")
         :clear_ingredients()
         :add_ingredient {type = "item", name = "barrel", amount = 1}
-        .category = "crafting"
+        .categories = {"crafting"}
 
 RECIPE("space-map")
         :clear_ingredients()
         :add_ingredient {type = "item", name = "exploration-data-disk", amount = mdpy.cap_amount(25 * ingredientMulti)}
-        .category = "crafting"
+        .categories = {"crafting"}
