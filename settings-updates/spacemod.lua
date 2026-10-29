@@ -1,0 +1,10 @@
+-- Hide settings that won't work with the compatibility changes.
+mdpy.override_setting("bool-setting", "SpaceX-cheaper-fusion-reactor", false)
+mdpy.override_setting("bool-setting", "SpaceX-no-bob", true)
+mdpy.override_setting("bool-setting", "SpaceX-no-krastorio", true)
+mdpy.override_setting("bool-setting", "SpaceX-no-ir", true)
+mdpy.override_setting("bool-setting", "SpaceX-no-pyanodons", true)
+mdpy.override_setting("bool-setting", "SpaceX-ignore-tech-multiplier", false)
+mdpy.override_setting("bool-setting", "SpaceX-ftl-ramp-up", false)
+mdpy.override_setting("bool-setting", "SpaceX-classic-mode", false)
+mdpy.override_setting("bool-setting", "SpaceX-no-nuclear", false)

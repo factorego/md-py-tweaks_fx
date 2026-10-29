@@ -1,0 +1,2 @@
+table.insert(data.raw.technology["coal-processing-1"].effects,{type="unlock-recipe",recipe="fill-coal-gas-canister"})
+table.insert(data.raw.technology["coal-processing-1"].effects,{type="unlock-recipe",recipe="fill-tar-canister"})

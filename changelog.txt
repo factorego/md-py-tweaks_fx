@@ -1,0 +1,129 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2026-02-16
+  Changes:
+    - Make all pYAL initial Creatures MM eligible.
+    - Make all pyAL Special Creatures MM eligible.
+    - Make pyAL Plant Samples MM eligible.
+    - Move pyAL T1 Codex to UMM from MM.
+    - Add MM support for Advanced Fluid Handling.
+    - Add pY Walls to MM.
+    - Add Vehicles to MM.
+    - Add Utility Equipment to MM.
+    - Remove battery recharge recipes from MM.
+  New Features
+    - Add compatibility support for Container Cargo Ships mod. This also adds a new more powerful
+      engine for the container ship and moves the tech to tier 2 trains. Also makes the recipe
+      much more expensive.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2025-09-17
+  Fixes:
+    - Yoinked the fix_tech method that was removed from PyPostProcessing... for now at least.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2025-07-21
+  Fixes:
+    - Update the usage of add_ingredient meta by setting type, name, and amount explicitly.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2025-03-15
+  Features:
+    - New map gen preset for large island play.
+  Changes:
+    - Reduced the amount of items given for military start.
+    - Make Ultra Marathon default 1.45 up from 1.25. Keeping it under the 1.5 threshold but upping a bit.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2025-02-28
+  Updates:
+    - Updated the vacuum-tube-electronics tech to electronics for CargoShips compatibility.
+  Changes:
+    - Make it so Dectorio's coal gravel turn back into raw coal instead of regular coal.
+  Marathon:
+    - Added boats and cargo ships from CargoShips.
+    - Added geothermal plants (and potentially others)
+    - Added rails and elevated rails
+  Bugfix:
+    - Stop failing when subgroup cannot be determined - Affects YAFC but unsure of consequences.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2025-02-02
+  Changes:
+    - Make landfill and other related items enter marathon mode even if Dectorio isn't installed.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2025-02-01
+  Changes:
+    - Unlock tar and coal gas canister filling if robo-start is enabled.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2025-01-31
+  Changes:
+    - It would help if I actually made the change for the landfill...
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025-01-31
+  Changes:
+    - Added the landscaping-earthworks subgroup to Marathon mode. It somehow slipped through!
+    - Also attempting to disable the py compatibility current built into the SpaceModFeorasFork mod.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2025-01-30
+  Changes:
+    - Update to Factorio 2.0!
+    - Removed dependency on stlib in favor of similar Py utilities
+    - Changed from SpaceMod to SpaceModFeorasFork since SpaceMod was not updated for 2.0
+    - Changed from Nanobots to Nanobots2 since it is a new mod for 2.0
+    - Made it so MOX reactor conversion recipes don't sink buildings.
+  Notes:
+    - I still need to update the Feoras new recipes to absurdity - will do that later.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.7.0
+Date: 2024-05-07
+  Features:
+    - Add in PyBlock compatibility settings.
+    - Add in an ingredient blocklist for blocking game breaking ingredients from marathon multiplication
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.0
+Date: 2024-05-04
+  Changes:
+    - Allow for arbitrary setting of marathon multipliers.
+  Bugfixes:
+    - Update the Command Center recipe to only require a single mk2 power armor.
+    - Remove all armors from the marathon recipe multiplications.
+
+---------------------------------------------------------------------------------------------------
+
+Version: 0.5.0
+Date: 2023-12-08
+  Changes:
+    - Add recipe descriptions to indicate marathon and ultra marathon multi application.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2023-12-05
+  Changes:
+    - Tone down the marathon multipliers... Even I can admit when I've gone too far.
+  Bugfixes:
+    - Reapply the PyHM crafting speed increase.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2023-12-03
+  Features:
+    - Added marathon, marathon plus, tech marathon, and ultra marathon modes to allow for more options
+      for the discerning masochist.
+    - Added settings to give some basic robots and military items at start of game.
+    - Added some Dectorio compatibility which makes the lawn mower only cost auto science.
+  Changes:
+    - Made most settings false by default.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2023-11-06
+
+  Changes:
+    - Incorportated nexelit-titanium-kevlar-aramid-tritium-unobtanium superpolymer nanowoven
+      biocomposite smart self-healing quantum N-dimensional hyperfabric when using Hard Mode.

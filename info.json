@@ -1,0 +1,28 @@
+{
+  "name": "md-py-tweaks",
+  "version": "1.0.9",
+  "factorio_version": "2.0",
+  "title": "MadDuck's Py Tweaks",
+  "author": "MdStudio5",
+  "contact": "",
+  "homepage": "",
+  "description": "Mad Duck's tweaks to Pyanodon's mods.",
+  "dependencies": [
+    "base >= 2.0.28",
+    "pyalternativeenergy >= 3.1.37",
+    "pyhightech >= 3.0.18",
+    "pypostprocessing >= 3.0.41",
+    "? pyhardmode >= 1.3.36",
+    "? cargo-ships >= 1.0.29",
+    "? container-cargo-ship >= 0.1.31",
+    "? Nanobots2 >= 3.3.1",
+    "? miniloader-redux >= 0.5.2",
+    "? shield-projector >= 0.2.2",
+    "? SpaceModFeorasFork >= 1.3.3",
+    "? Dectorio >= 0.13.1"
+  ],
+  "package": {
+    "ignore": [],
+    "scripts": {}
+  }
+}
