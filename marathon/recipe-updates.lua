@@ -159,8 +159,6 @@ local marathon_mode_names = {
     'fluidavan',
     'flyavan',
     'nukavan',
-    'caravan-turd',
-    'fluid-caravan-turd',
     'ocula',
     'digosaurus',
     'thikat',
@@ -509,6 +507,8 @@ local function should_apply_marathon_multi(recipe)
             return true
         end
     end
+    -- All turd variant recipes from pyalienlife should also scale
+    if should_apply_turd_marathon_multi(recipe) then return true end
     return false
 end
 
@@ -529,8 +529,17 @@ local function should_apply_ultra_marathon_multi(recipe)
             return true
         end
     end
+    -- All turd variant recipes from pyalienlife should also scale
+    if should_apply_turd_marathon_multi(recipe) then return true end
     return false
+end
 
+local function should_apply_turd_marathon_multi(recipe)
+    local name = recipe.name
+    if string.find(name, 'turd') then
+        return true
+    end
+    return false
 end
 
 local function should_multiply_ingredients(ing)
