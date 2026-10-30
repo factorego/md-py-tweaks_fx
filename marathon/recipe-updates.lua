@@ -159,6 +159,8 @@ local marathon_mode_names = {
     'fluidavan',
     'flyavan',
     'nukavan',
+    'caravan-turd',
+    'fluid-caravan-turd',
     'ocula',
     'digosaurus',
     'thikat',

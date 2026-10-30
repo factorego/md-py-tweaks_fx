@@ -28,7 +28,7 @@ if mods["SpaceModFeorasFork"] and settings.startup["mdpy-spacemod-compatibility"
     require("compatibility-patches.spacemod")
 end
 
-if settings.startup["mdpy-marathon"].value == true then
+if settings.startup["mdpy-marathon"].value == true or settings.startup["mdpy-ultra-marathon"].value == true then
     require("marathon.recipe-updates")
 end
 
