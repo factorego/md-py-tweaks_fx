@@ -473,6 +473,13 @@ local function is_ultra_marathon_mode_enabled_for_name(name)
     for _, nm in pairs(ultra_marathon_mode_names) do
         if name == nm then return true end
     end
+
+-- Check if recipe name matches turd variants
+local function should_apply_turd_marathon_multi(recipe)
+    local name = recipe.name
+    if string.find(name, "turd") then
+        return true
+    end
     return false
 end
 
@@ -534,13 +541,6 @@ local function should_apply_ultra_marathon_multi(recipe)
     return false
 end
 
-local function should_apply_turd_marathon_multi(recipe)
-    local name = recipe.name
-    if string.find(name, 'turd') then
-        return true
-    end
-    return false
-end
 
 local function should_multiply_ingredients(ing)
     local ing_name = ing.name or ing[1]
