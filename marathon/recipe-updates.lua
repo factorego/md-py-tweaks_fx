@@ -483,6 +483,16 @@ local function should_apply_turd_marathon_multi(recipe)
     return false
 end
 
+
+-- Check if recipe name matches turd variants
+local function should_apply_turd_marathon_multi(recipe)
+    local name = recipe.name
+    if string.find(name, "turd") then
+        return true
+    end
+    return false
+end
+
 local function is_ultra_marathon_mode_disabled_for_name(name)
     for _, nm in pairs(ultra_marathon_mode_name_blocklist) do
         if name == nm then return true end
